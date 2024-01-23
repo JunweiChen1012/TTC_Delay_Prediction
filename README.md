@@ -6,5 +6,7 @@ The paper is organized as follows: first, we present the dataset and its context
 
 # File Structure
 inputs/data: It contains the raw data used in prediction.
+
 output/paper: It contains the Quarto doucument for generating the papar, with biobolography file.
+
 scripts: It contains the R script.
