@@ -1,0 +1,62 @@
+---
+title: "TTC Subway Delay Prediction"
+author: 
+  Junwei Chen
+thanks: "Code and data are available at: LINK."
+date: today
+date-format: long
+abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+format: pdf
+number-sections: true
+---
+
+## Setup
+
+```{r, message=FALSE}
+library(tidyverse)
+library(opendatatoronto)
+```
+
+## Introduction
+
+The Toronto subway system plays a crucial role in the daily lives of residents and commuters. Understanding the factors contributing to delays is essential for improving the overall transit and commuting experience. In this paper, we studied and took a deep dive into the delay data, examining trends, identifying potential causes, and ultimately creating a predictive model for estimating delay durations.
+
+The paper is organized as follows: first, we present the dataset and its context; next, we perform an EDA to unravel delay patterns; finally, we introduce our predictive model and discuss its implications for the transit system.
+
+## Data
+
+TTC Subway & SRT Train Service Delay Data sourced from the Toronto Open Data [(data catalog)](https://open.toronto.ca/dataset/ttc-subway-delay-data/), providing a comprehensive record of subway delays over a particular period. This dataset is invaluable for assessing the reliability of the subway system and identifying potential areas for improvement.
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+setwd("~/Documents/R project")
+data <- read_csv("inputs/data/raw_data.csv")
+head(data)
+```
+
+## Ethical and Statistical Considerations
+
+Before delving into the analysis, it is crucial to acknowledge the ethical and statistical dimensions of the data. We consider issues related to data privacy, the representativeness of the sample, and the potential impact on various demographics. Statistical methods used in the analysis are carefully chosen to ensure the robustness of our findings.
+
+## Exploratory Data Analysis
+
+### 
+Descriptive Statistics
+
+Table 1 presents key descriptive statistics, providing a snapshot of delay characteristics. Additionally, Figure 1 visually represents the distribution of delays over time, offering insights into temporal patterns.
+
+```` \```{r table-descriptive, echo=FALSE, results='asis'}
+# Insert code to generate descriptive table
+\```
+
+\```{r figure-delay-distribution, echo=FALSE, fig.cap="Distribution of Delays Over Time"}
+# Insert code to generate delay distribution plot
+\``` ````
+
+### 
+Predictive Modeling
+
+To enhance our understanding of subway delays, we develop a predictive model using machine learning techniques. Details of the model and its performance are discussed in subsequent sections.
+
+## References
+
+References to R and relevant R packages (Wickham 2016; Xie 2023; Iannone et al. 2022) are included in the bibliography. Moreover, we acknowledge the Toronto Open Data initiative as the source of the subway delay dataset.
