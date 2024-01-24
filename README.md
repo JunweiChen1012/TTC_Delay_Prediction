@@ -1,12 +1,16 @@
-# TTC_Delay_Prediction
-# Overview
-The Toronto subway system plays a crucial role in the daily lives of residents and commuters. Understanding the factors contributing to delays is essential for improving the overall transit and commuting experience. In this paper, we studied and took a deep dive into the delay data, examining trends, identifying potential causes, and ultimately creating a predictive model for estimating delay durations.
+# TCC Subway Delay Project
 
-The paper is organized as follows: first, we present the dataset and its context; next, we perform an EDA to unravel delay patterns; finally, we introduce our predictive model and discuss its implications for the transit system.
+## Overview
 
-# File Structure
-inputs/data: It contains the raw data used in prediction.
+This repo provides TCC Subway Delay projects associated with *Telling Stories with Data*. Data is from [opentorontodata](https://open.toronto.ca/dataset/ttc-subway-delay-data/).
 
-output/paper: It contains the Quarto doucument for generating the papar, with biobolography file.
+To use this folder, click the green "Code" button", then "Download ZIP". Move the downloaded folder to where you want to work on your own computer, and then modify it to suit.
 
-scripts: It contains the R script.
+## File Structure
+
+The repo is structured as:
+
+-   [inputs/data](inputs/data) contains the data sources used in analysis including the raw data.
+-   [outputs/data](outputs/data) contains the cleaned dataset that was constructed.
+-   [outputs/paper](outputs/paper) contains the files used to generate the paper, including the Quarto document and reference bibliography file, as well as the PDF of the paper. 
+-   [scripts](scripts) contains the R scripts used to simulate, download and clean data.
